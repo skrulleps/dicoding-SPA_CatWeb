@@ -135,6 +135,10 @@ body {
   max-width: 800px;
   height: auto;
 
-  view-transition-name: cat-image;
+  /* view-transition-name: cat-image; */
+}
+
+::view-transition-group(cat-image) {
+  animation-duration: 500ms;
 }
 /* SPA */

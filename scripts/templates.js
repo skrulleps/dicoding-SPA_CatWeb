@@ -1,6 +1,6 @@
 export function generateCatItemTemplate({ id, image, name }) {
   return `
-    <li class="cats-item">
+    <li class="cats-item" data-catid="${id}" >
       <a href="#/cat/${id}" class="cats-item__link">
         <img
           class="cats-item__image"
